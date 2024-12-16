@@ -1,8 +1,8 @@
 
-import time
+Import time # type: ignore
 from your_api_client import Client  # Import the client library
 
-client = Client(api_key='YOUR_API_KEY')
+client = Client(api_key='9pBiKIcMD2erbnU8XSiOlIHh1UyOfk0RzrGfybzNWAZPPmVrHdPlJQQJ99AKACYeBjFXJ3w3AAAAACOGtoia')
 
 # Create a thread
 thread = client.beta.threads.create()
