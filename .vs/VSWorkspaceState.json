@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\deploymentScripts",
+    "\\deploymentTemplates",
+    "\\deploymentTemplates\\deployUseExistResourceGroup",
+    "\\deploymentTemplates\\deployWithNewResourceGroup",
+    "\\src"
+  ],
+  "SelectedNode": "\\pi dfata",
+  "PreviewInSolutionExplorer": false
+}

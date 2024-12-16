@@ -1,0 +1,33 @@
+// Create a thread
+{
+
+}
+
+// Add a user question to the thread
+{
+  "content": "hi",
+  "role": "user"
+}
+
+
+// Run the thread
+{
+  "assistant_id": "asst_anyP5Xdt9Vz9KizB8Ia9beFZ",
+  "tools": [
+    {
+      "type": "file_search",
+      "file_search": {
+        "ranking_options": {
+          "ranker": "default_2024_08_21",
+          "score_threshold": 0
+        }
+      }
+    },
+    {
+      "type": "code_interpreter"
+    }
+  ]
+}
+
+// Wait for the assistant to respond
+{}

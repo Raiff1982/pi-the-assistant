@@ -1,0 +1,197 @@
+{
+    "name": "Pi-The-Assistant",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "https://Pi-The-Assistant.azurewebsites.net/api/messages",
+            "id": "60006cb0-b85b-11ef-80ae-d73bd520919a",
+            "appId": "c874ef59-1615-4413-93fa-203e0b471289",
+            "appPassword": "eb1d2c38-30a1-423b-a096-30b7ba08f620",
+            "tenantId": "",
+            "endpoint": "https://Pi-The-Assistant.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/Justforpi/providers/Microsoft.Storage/storageAccounts/featureforpi6225058709/blobServices/default/containers/insights-logs-auditevent",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "insights-logs-auditevent",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=featureforpi6225058709;AccountKey=0+ub/e/0ZCRnfpAYRKmjVUUURstyLS+qCWFC5mMZZGBEMaqw93oydl7Xm8lB9nxM7CTC7NxVa48y+AStZwo9bw==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "Justforpi",
+            "serviceName": "featureforpi6225058709",
+            "container": "insights-logs-auditevent"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/Justforpi/providers/Microsoft.Storage/storageAccounts/featureforpi6225058709/blobServices/default/containers/insights-metrics-pt1m",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "insights-metrics-pt1m",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=featureforpi6225058709;AccountKey=0+ub/e/0ZCRnfpAYRKmjVUUURstyLS+qCWFC5mMZZGBEMaqw93oydl7Xm8lB9nxM7CTC7NxVa48y+AStZwo9bw==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "Justforpi",
+            "serviceName": "featureforpi6225058709",
+            "container": "insights-metrics-pt1m"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/Justforpi/providers/Microsoft.Storage/storageAccounts/pibrain/blobServices/default/containers/fileupload-iinputisneeded",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "fileupload-iinputisneeded",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pibrain;AccountKey=J02KMz3A4kzosqlcxmRgOHpc0D6it6JRm7l83933GN5aiKoXdhy7Y0ECnCiNWVtuqzZTHHwTHg35+AStS9xfKg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "Justforpi",
+            "serviceName": "pibrain",
+            "container": "fileupload-iinputisneeded"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/aml-environment-image-build",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "aml-environment-image-build",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "aml-environment-image-build"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/azureml",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "azureml",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "azureml"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/azureml-blobstore-c2b9ee2f-88ff-4442-ad54-e3967c41899d",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "azureml-blobstore-c2b9ee2f-88ff-4442-ad54-e3967c41899d",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "azureml-blobstore-c2b9ee2f-88ff-4442-ad54-e3967c41899d"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/azureml-environments",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "azureml-environments",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "azureml-environments"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/insights-logs-auditevent",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "insights-logs-auditevent",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "insights-logs-auditevent"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/insights-metrics-pt1m",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "insights-metrics-pt1m",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "insights-metrics-pt1m"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/pi3",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "pi3",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "pi3"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/revisions",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "revisions",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "revisions"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/snapshots",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "snapshots",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "snapshots"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/justforpi/providers/Microsoft.Storage/storageAccounts/pisgym1542311568/blobServices/default/containers/snapshotzips",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "snapshotzips",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pisgym1542311568;AccountKey=dS0SywxGIiFRPw6PgZWLdw8ddCT4idvEvy4+oBOaDeVZ8vF5vtpQuQ8QwQGtZ4f7HMbaxUMMKkcE+AStaMpUPg==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "justforpi",
+            "serviceName": "pisgym1542311568",
+            "container": "snapshotzips"
+        },
+        {
+            "type": "blob",
+            "id": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/Justforpi/providers/Microsoft.Storage/storageAccounts/pi5/blobServices/default/containers/pi5",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "name": "pi5",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=pi5;AccountKey=7jdAg4XWDHf/KW5uGqBExgM/3vJv8HjLDdyGa86gb2c6WTEq/NMvvyRxglvya+85yH2/pcYakiGO+ASt7mGhTA==;EndpointSuffix=core.windows.net",
+            "resourceGroup": "Justforpi",
+            "serviceName": "pi5",
+            "container": "pi5"
+        },
+        {
+            "type": "generic",
+            "name": "pibrain",
+            "url": "https://pibrain.search.windows.net",
+            "configuration": {
+                "Se0FK43Pp3gslPCw8IuPv3yWoF0jxjs1mPD45e5PdNAzSeCztKVK": "AwIrD91E5CZKj8GGLOhPmOjcdsnyL7qb0uQZsxAmbyAzSeCNnevJ"
+            },
+            "id": "913534e0-b85c-11ef-8a63-7fb73e5e6496"
+        },
+        {
+            "type": "abs",
+            "subscriptionId": "5dd32870-bdc6-40cd-981a-f299e93a6439",
+            "serviceName": "/subscriptions/5dd32870-bdc6-40cd-981a-f299e93a6439/resourceGroups/Justforpi/providers/Microsoft.BotService/botServices/Pi-The-Assistant",
+            "tenantId": "05b815de-344b-4a3f-8387-52ca67249c55",
+            "resourceGroup": "Justforpi",
+            "appId": "c874ef59-1615-4413-93fa-203e0b471289",
+            "id": "e6053e20-b85c-11ef-8a63-7fb73e5e6496"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "https://pitheassistant.cognitiveservices.azure.com/api/messages",
+            "name": "pi3",
+            "id": "ccd0f3d0-b85d-11ef-8a63-7fb73e5e6496"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\Jonathan\\pi-the-assistant\\Pi-The-Assistant.bot",
+    "overrides": null
+}
