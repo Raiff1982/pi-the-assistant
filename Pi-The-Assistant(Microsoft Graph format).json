@@ -1,0 +1,345 @@
+{
+	"id": "d9cd4576-d0ed-4041-a9f5-f22b8533a545",
+	"deletedDateTime": null,
+	"appId": "c874ef59-1615-4413-93fa-203e0b471289",
+	"applicationTemplateId": null,
+	"disabledByMicrosoftStatus": null,
+	"createdDateTime": "2024-12-12T06:01:02Z",
+	"displayName": "Pi-The-Assistant",
+	"description": null,
+	"groupMembershipClaims": "All, ApplicationGroup",
+	"identifierUris": [
+		"api://c874ef59-1615-4413-93fa-203e0b471289"
+	],
+	"isDeviceOnlyAuthSupported": null,
+	"isFallbackPublicClient": true,
+	"nativeAuthenticationApisEnabled": null,
+	"notes": null,
+	"publisherDomain": "raiffsbits.com",
+	"serviceManagementReference": null,
+	"signInAudience": "AzureADandPersonalMicrosoftAccount",
+	"tags": [
+		"apiConsumer",
+		"webApi",
+		"desktopApp",
+		"webApp"
+	],
+	"tokenEncryptionKeyId": null,
+	"samlMetadataUrl": null,
+	"defaultRedirectUri": null,
+	"certification": null,
+	"servicePrincipalLockConfiguration": null,
+	"requestSignatureVerification": null,
+	"addIns": [],
+	"api": {
+		"acceptMappedClaims": null,
+		"knownClientApplications": [],
+		"requestedAccessTokenVersion": 2,
+		"oauth2PermissionScopes": [
+			{
+				"adminConsentDescription": "admin sign here",
+				"adminConsentDisplayName": "Admiins",
+				"id": "398fe84a-c944-48fd-8375-f0445a15b525",
+				"isEnabled": true,
+				"type": "User",
+				"userConsentDescription": null,
+				"userConsentDisplayName": "users",
+				"value": "piread"
+			}
+		],
+		"preAuthorizedApplications": []
+	},
+	"appRoles": [
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "has the ability to do all thiongs",
+			"displayName": "jonathans",
+			"id": "c1baa22c-d798-4e8b-834b-93b34118e0fe",
+			"isEnabled": true,
+			"origin": "Application",
+			"value": "task,write,read"
+		}
+	],
+	"info": {
+		"logoUrl": null,
+		"marketingUrl": null,
+		"privacyStatementUrl": "https://www.raiffsbits.com/privacystatement",
+		"supportUrl": null,
+		"termsOfServiceUrl": "https://www.raiffsbits.com/ToS"
+	},
+	"keyCredentials": [],
+	"optionalClaims": {
+		"accessToken": [
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "groups",
+				"source": null
+			}
+		],
+		"idToken": [
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "auth_time",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "tenant_region_scope",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "sid",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "verified_primary_email",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "verified_secondary_email",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "vnet",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "fwd",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "ctry",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "tenant_ctry",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "xms_pdl",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "xms_pl",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "xms_tpl",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "ztdid",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "email",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "acct",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "upn",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "ipaddr",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "onprem_sid",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "pwd_exp",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "pwd_url",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "in_corp",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "family_name",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "given_name",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "preferred_username",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "login_hint",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "xms_cc",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "acrs",
+				"source": null
+			},
+			{
+				"additionalProperties": [],
+				"essential": false,
+				"name": "groups",
+				"source": null
+			}
+		],
+		"saml2Token": []
+	},
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"displayName": "pibot",
+			"endDateTime": "2025-06-10T05:44:17.114Z",
+			"hint": "J.j",
+			"keyId": "32065ec6-7be0-4403-b07f-37dde747d212",
+			"secretText": null,
+			"startDateTime": "2024-12-12T06:44:17.114Z"
+		},
+		{
+			"customKeyIdentifier": null,
+			"displayName": null,
+			"endDateTime": "2026-12-12T06:01:11.9407442Z",
+			"hint": "23-",
+			"keyId": "eb1d2c38-30a1-423b-a096-30b7ba08f620",
+			"secretText": null,
+			"startDateTime": "2024-12-12T06:01:11.9407442Z"
+		}
+	],
+	"publicClient": {
+		"redirectUris": [
+			"msalc874ef59-1615-4413-93fa-203e0b471289://auth",
+			"https://login.live.com/oauth20_desktop.srf",
+			"https://login.microsoftonline.com/common/oauth2/nativeclient"
+		]
+	},
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "64a6cdd6-aab1-4aaf-94b8-3cc8405e90d0",
+					"type": "Scope"
+				},
+				{
+					"id": "14dad69e-099b-42c9-810b-d002981feec1",
+					"type": "Scope"
+				}
+			]
+		},
+		{
+			"resourceAppId": "ee73a4d3-bba3-4299-89a3-cf963f21a548",
+			"resourceAccess": [
+				{
+					"id": "0232070d-f4d6-4baa-a517-ffd02cf4aa09",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"verifiedPublisher": {
+		"displayName": "Raiff's Bits",
+		"verifiedPublisherId": "6894600",
+		"addedDateTime": "2024-12-12T06:57:45Z"
+	},
+	"web": {
+		"homePageUrl": "Https://www.raiffsbits.com",
+		"logoutUrl": "https://www.raiffsbits.com",
+		"redirectUris": [
+			"http://localhost:5000/signin-oidc",
+			"https://localhost:5001/signin-oidc",
+			"https://localhost:44332/signin-oidc"
+		],
+		"implicitGrantSettings": {
+			"enableAccessTokenIssuance": true,
+			"enableIdTokenIssuance": true
+		},
+		"redirectUriSettings": [
+			{
+				"uri": "http://localhost:5000/signin-oidc",
+				"index": null
+			},
+			{
+				"uri": "https://localhost:5001/signin-oidc",
+				"index": null
+			},
+			{
+				"uri": "https://localhost:44332/signin-oidc",
+				"index": null
+			}
+		]
+	},
+	"spa": {
+		"redirectUris": []
+	}
+}
